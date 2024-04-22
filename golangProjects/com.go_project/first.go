@@ -3,5 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("This is Pardhu, starting on GO!!!")
+
+	for i := range 10 {
+		fmt.Printf("This is Pardhu, starting on GO!!! - %[1]d \n", i)
+	}
+
 }
