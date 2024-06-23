@@ -25,7 +25,10 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
 dependencies = [
-  "requests"
+  "requests",
+  "os",
+  "json",
+  "flask"
 ]
 
 [project.urls]
