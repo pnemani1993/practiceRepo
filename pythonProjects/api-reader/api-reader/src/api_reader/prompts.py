@@ -9,7 +9,6 @@ def getAddress():
     address = input("Enter the address separated by spaces and no special characters: ")
     if bool(re.fullmatch(address_pattern, address)):
         query_address = address.replace(" ", GOOGLE_ADDRESS_SEPARATOR)
-        print(query_address)
         runApp(query_address)
     else: 
         print("Enter valid address.")

@@ -5,7 +5,7 @@ from prompts import getAddress
 def main() -> int:
     """Echo the beginning prompt to standard output"""
     # phrase = shlex.join(sys.argv)
-    print("#"*20)
+    print("#"*30)
     value = input("Do you want weather forecast?")
     if value in ("yes", "y", "ye", "Y", "Yes", "YES", "YES"):
         getAddress()
