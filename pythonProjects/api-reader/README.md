@@ -8,7 +8,7 @@ hatch new "api-reader"
 
 # Enter into the created directory of api-reader: use this command in terminal -> cd api-reader
 # Second Command
-python -m venv venv
+python -m venv venv (or) use: py -m venv venv
 # This sets up a venv for using python libraries
 
 # Third Command
