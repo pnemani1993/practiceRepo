@@ -1,1 +1,5 @@
-# The gitignore file for github to ignore certain kinds of files. 
+# this is the gitignore file that the git does not track. 
+.vscode/
+**/node_modules/
+**/.venv/
+**/venv/
